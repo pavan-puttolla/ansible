@@ -1,0 +1,31 @@
+{
+       "students": [
+        {
+        "FirstName": "Pavan kumar", 
+        "DOB": "18-10-1985",
+        
+        "address": [
+            {   "type": "Permanent",
+                "street":"Navipet village",
+                "flatno":"2-1-23",
+                "city": "Nizamabad",
+                "state": "Telangana",
+                "zip": "503245"
+            },
+            {
+                "type": "Current",
+                "flatno":"2-1-24",
+                "street":"Nizampet village",
+                "city": "hyderabad",
+                "state": "Telangana",
+                "zip": "500090"
+            }
+
+        ],
+        "skills":["Python", "Ansible", "Linux   Administration  "] 
+        }
+         
+    ]
+         
+
+}

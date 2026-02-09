@@ -1,0 +1,52 @@
+<!-- student object -->
+<students>
+<student>
+<firstname>PavanGoud</firstname>
+<lastname>Puttolla</lastname>
+  <DOB>18-10-1985</DOB>
+  <Email>pavankumar.puttolla@gmail.com</Email>
+  <phone>9789889946</phone>
+  <!-- address>MithilaHeights,Apartments</address>
+    <Flat-no>202</Flat-no>
+    <street>Nizampet,Road 5</street>
+    <city>Hyderabad</city>
+    <state>Telangana</state>
+    <country>India</country>
+    </address> -->
+
+   <addresses>
+    <permanentaddress>pavankumar Hno:4-90,Vill-Mndl:Navipet</permanentaddress>
+    <street>Navipet</street>
+    <city>Nizamabd</city>
+    <state>Telangana</state>
+    <country>India</country>
+    <currentaddress>MithilaHeights,Apartments</currentaddress>
+    <Flat-no>202</Flat-no>
+    <street>Nizampet,Road 5</street>
+    <city>Hyderabad</city>
+    <state>Telangana</state>
+    <country>India</country>
+   </addresses>
+</student>
+
+<student>
+   <firstname>Shivank </firstname>
+    <lastname>Puttolla</lastname>
+    <DOB>19-1-2019</DOB>
+    <Email>shivank.puttolla@gmail.com</Email>
+    <phone>9989116304</phone>
+    <addresses>
+    <permanentaddress>shivank Hno:4-90,Vill-Mndl:Navipet</permanentaddress>
+    <street>Navipet</street>
+    <city>Nizamabd</city>
+    <state>Telangana</state>
+    <country>India</country>
+    <currentaddress>MithilaHeights,Apartments</currentaddress>
+    <Flat-no>201</Flat-no>
+    <street>Nizampet,Road 5</street>
+    <city>Hyderabad</city>
+    <state>Telangana</state>
+    <country>India</country>
+   </addresses>
+</student>
+</students>
