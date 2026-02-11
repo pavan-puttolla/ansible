@@ -19,4 +19,5 @@
 #Variable preference order is from task
 #variable reference order is from file
 #variable reference order is from prompt
+#variable reference order is from playbook
 #variable reference order is from inventory
