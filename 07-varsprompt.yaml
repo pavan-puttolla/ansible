@@ -1,0 +1,17 @@
+- name: rint username and password through prompt
+  hosts: local
+  connection: local
+  vars_prompt:
+   - name: "username"
+  prompt: "Enter your username"
+  private: no 
+
+- name: "password"
+  prompt: "Enter your password"
+  private: yes
+
+  tasks:
+       - name: print username and password
+         ansible.builtin.debug:
+           msg: "Username: {{ username }}, Password: {{ password }}"
+  
