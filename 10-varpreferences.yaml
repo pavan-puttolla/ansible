@@ -15,3 +15,5 @@
             NAME: "Ansible from Task"
           ansible.builtin.debug:
             msg: "Hi {{ NAME }}" 
+# Variable preference order is from Args
+#Variable preference order is from task
