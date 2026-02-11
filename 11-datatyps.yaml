@@ -14,7 +14,6 @@
     TRAINER: "Pavan Kumar"
     REVIEWS: 1500
     DURATION: "4 Months"
-    
   tasks:
     - name: print variables
       ansible.builtin.debug:
