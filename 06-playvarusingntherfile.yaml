@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars:
-  - course.yaml
-  
+    include_vars:
+      file: course.yaml
   tasks:
   - name: print course details
     vars:
