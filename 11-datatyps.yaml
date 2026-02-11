@@ -7,9 +7,9 @@
    ATING: 4.5                   #float
    IS_LIV: true                 #boolean
   COURSES:                     #list
-    - "Linux  with AWS"
-    - "DevSecOps with AWS"
-    - "Kubernetes with AWS"
+    - Linux
+    - Shell
+    - AWS
   DETAILS: #dictionary
     TRAINER: "Pavan Kumar"
     REVIEWS: 1500
@@ -23,4 +23,4 @@
           Rating: {{ RATING }} 
           Is Live: {{ IS_LIV }} 
           Courses: {{ COURSES }} 
-          Details: {{ DETAILS }})
+          Details: {{ DETAILS }}
