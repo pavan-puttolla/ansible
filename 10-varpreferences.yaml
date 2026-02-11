@@ -4,7 +4,7 @@
   vars:
       NAME: "Ansible from PLAY"
   vars_files:
-    - course.yaml
+    # - course.yaml
   vars_prompt:
     - name: NAME
       prompt: "Enter your name"
@@ -17,3 +17,4 @@
             msg: "Hi {{ NAME }}" 
 # Variable preference order is from Args
 #Variable preference order is from task
+#variable reference order is from file
