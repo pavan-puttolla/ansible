@@ -1,4 +1,4 @@
-- name: " Datat Types in Ansible"
+- name: " Data Types in Ansible"
   hosts: local
   connection: local
   vars:
