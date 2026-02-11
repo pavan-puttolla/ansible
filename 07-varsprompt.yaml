@@ -1,4 +1,4 @@
-- name: rint username and password through prompt
+- name: print username and password through prompt
   hosts: local
   connection: local
   vars_prompt:
