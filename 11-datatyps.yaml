@@ -3,14 +3,14 @@
   connection: local
   vars:
    PROGRAM: "DevSecops with AWS" #string
-   URATION: 4                   #integer
-   ATING: 4.5                   #float
+   DURATION: 4                   #integer
+   RATING: 4.5                   #float
    IS_LIV: true                 #boolean
    COURSES:                     #list
     - Linux
     - Shell
     -  AWS
-  DETAILS: #dictionary
+  DETAILS:                      #dictionary
     TRAINER: "Pavan Kumar"
     REVIEWS: 1500
     DURATION: "4 Months"
