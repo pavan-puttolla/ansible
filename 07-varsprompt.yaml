@@ -4,11 +4,11 @@
   vars_prompt:
   - name: username
     prompt: Enter your username
-    private: false
+    private: no
 
 - name: password
   prompt: Enter your password
-  private: true
+  private: yes
 
   tasks:
    - name: printinfo
