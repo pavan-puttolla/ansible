@@ -3,12 +3,12 @@
   connection: local
   vars:
       NAME: "Ansible from PLAY"
-  vars_files:
+  # vars_files:
     # - course.yaml
-  vars_prompt:
-    - name: NAME
-      prompt: "Enter your name"
-      private: false
+  # vars_prompt:
+  #   - name: NAME
+  #     prompt: "Enter your name"
+  #     private: false
   tasks:
         - name: print name
           # vars:
@@ -19,3 +19,4 @@
 #Variable preference order is from task
 #variable reference order is from file
 #variable reference order is from prompt
+#variable reference order is from inventory
