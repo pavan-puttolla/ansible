@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   vars:
-  PROGRAM: "DevSecops with AWS" #string
-  DURATION: 4                   #integer
-  RATING: 4.5                   #float
-  IS_LIV: true                 #boolean
+   ROGRAM: "DevSecops with AWS" #string
+   URATION: 4                   #integer
+   ATING: 4.5                   #float
+   IS_LIV: true                 #boolean
   COURSES:                     #list
     - "Linux  with AWS"
     - "DevSecOps with AWS"
@@ -23,4 +23,4 @@
           Rating: {{ RATING }} 
           Is Live: {{ IS_LIV }} 
           Courses: {{ COURSES }} 
-          Details: {{ DETAILS }} 
+          Details: {{ DETAILS }})
