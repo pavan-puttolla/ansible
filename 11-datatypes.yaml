@@ -1,6 +1,7 @@
 - name: Data Types in Ansible
   hosts: local
   connection: local
+  
   vars:
    PROGRAM: "DevSecops with AWS" #string
    DURATION: 4                   #integer
