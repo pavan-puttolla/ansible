@@ -1,0 +1,7 @@
+- name: variables from arguments
+  hosts: local
+  connections: local
+  tasks:
+  - name: print value of arguments
+    ansible.builtin.debug:
+      msg: "Hi {{name}}, Welcome to Ansible Training"
