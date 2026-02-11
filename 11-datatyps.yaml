@@ -2,14 +2,14 @@
   hosts: local
   connection: local
   vars:
-   ROGRAM: "DevSecops with AWS" #string
+   PROGRAM: "DevSecops with AWS" #string
    URATION: 4                   #integer
    ATING: 4.5                   #float
    IS_LIV: true                 #boolean
-  COURSES:                     #list
+   COURSES:                     #list
     - Linux
     - Shell
-    - AWS
+    -  AWS
   DETAILS: #dictionary
     TRAINER: "Pavan Kumar"
     REVIEWS: 1500
