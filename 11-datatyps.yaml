@@ -18,9 +18,9 @@
     - name: print variables
       ansible.builtin.debug:
         msg: |
-          Program Name: {{ PROGRAM }} ({{ PROGRAM | type_debug }})
-          Duration: {{ DURATION }} ({{ DURATION | type_debug }})
-          Rating: {{ RATING }} ({{ RATING | type_debug }})
-          Is Live: {{ IS_LIV }} ({{ IS_LIV | type_debug }})
-          Courses: {{ COURSES }} ({{ COURSES | type_debug }})
-          Details: {{ DETAILS }} ({{ DETAILS | type_debug }})
+          Program Name: {{ PROGRAM }} 
+          Duration: {{ DURATION }} 
+          Rating: {{ RATING }} 
+          Is Live: {{ IS_LIV }} 
+          Courses: {{ COURSES }} 
+          Details: {{ DETAILS }} 
