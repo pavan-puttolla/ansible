@@ -12,4 +12,4 @@
       tasks:
         - name: print name
           ansible.builtin.debug:
-            msg: "Hi {{ NAME }}, Welcome to Ansible Training"
+            msg: "Hi {{ NAME }}" 
