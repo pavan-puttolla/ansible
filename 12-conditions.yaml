@@ -1,9 +1,11 @@
 - name: Demo on Condition
   hosts: local
   connection: local
+
   vars:
   COURSE: "Ansible"
   IS_LIVE: true
+
   tasks:
   - name: check live is there or not
     ansible.builtin.debug:
