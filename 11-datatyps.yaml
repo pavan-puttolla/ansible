@@ -3,10 +3,10 @@
   connection: local
   vars:
   PROGRAM: "DevSecops with AWS" #string
-  DURATION: 4 #integer
-  RATING: 4.5 #float
-  IS_LIV: true #boolean
-  COURSES: #list
+  DURATION: 4                   #integer
+  RATING: 4.5                   #float
+  IS_LIV: true                 #boolean
+  COURSES:                     #list
     - "Linux  with AWS"
     - "DevSecOps with AWS"
     - "Kubernetes with AWS"
