@@ -1,0 +1,10 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars_files:
+    - course.yaml
+  tasks:
+  - name: print varible from inventoray
+    ansible.builtin.debug:
+      msg: "Course Name: {{ COURSE }}"
+
