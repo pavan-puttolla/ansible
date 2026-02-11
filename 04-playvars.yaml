@@ -5,7 +5,7 @@
     COURSE: "DevOPs with AWS"
     DURATION: "3 Months"
     TRAINER: "Pavan Kumar"
-    tasks:
+  tasks:
       - name: print course details
         ansible.builtin.debug:
           msg: "Course Name: {{ COURSE }} Duration: {{ DURATION }} Trainer: {{ TRAINER }}"
