@@ -1,0 +1,9 @@
+- name: print the diff between command and shell in ansible
+  hosts: local
+  connection: local
+  tasks:
+    - name:  command module checking
+      ansible.builtin.command: cat /etc/passwd | grep root
+      register: command_output
+
+    
