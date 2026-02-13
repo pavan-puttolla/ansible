@@ -3,7 +3,12 @@
   connection: local
   tasks:
     - name:  command module checking
-      ansible.builtin.command: cat /etc/passwd | grep root
-      register: command_output
-
-    
+      #ansible.builtin.command: cat /etc/passwd | grep root | command 
+      #register: command_output
+      ansible.builtin.shell: cat /etc/passwd | grep root
+      register: user_output
+ 
+    - name: print shell output
+      ansible.builtin.debug:
+        msg: The output is "{{ user_output.stdout }}"
+        
