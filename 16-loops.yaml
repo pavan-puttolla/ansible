@@ -5,7 +5,7 @@
   - name: print the list of Ansible users
     ansible.builtin.debug:
       msg: "Hello {{ item }}"
-      loop:
+    loop:
        -John
         -Peter
        -Shivank   
