@@ -6,7 +6,7 @@
       ansible.builtin.package:
         msg: "{{item}}"
         state: present
-        loop:
+      loop:
          - Nginx
          - nodejs
          - zip
