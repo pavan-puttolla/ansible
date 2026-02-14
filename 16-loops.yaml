@@ -4,7 +4,7 @@
   tasks:
    - name: print the list of Ansible users
      ansible.builtin.debug:
-      name: "{{item}}"
+      name: "{{ item }}"
       loop:
        -John
         -Peter
