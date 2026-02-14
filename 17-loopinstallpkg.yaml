@@ -7,8 +7,9 @@
         msg: "{{item}}"
         state: present
         loop:
-         -Nginx
-         -nodejs
+         - Nginx
+         - nodejs
+         - zip
         
 
         
