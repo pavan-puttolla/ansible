@@ -1,0 +1,14 @@
+- name:  Demo for installing pkg using ansible"
+  hosts: local
+  connection: local
+  tasks:
+    - name: install the packages
+      ansible.builtin.package:
+        msg: "{{item}}"
+        state: present
+        loop:
+         -Nginx
+         -nodejs
+        
+
+        
