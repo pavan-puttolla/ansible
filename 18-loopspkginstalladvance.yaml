@@ -1,6 +1,7 @@
 - name: Installing package through advanced loop
   hosts: local
   connection: local
+  become: true
   tasks:
 
   hosts: local
