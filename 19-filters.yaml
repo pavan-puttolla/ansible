@@ -3,6 +3,11 @@
   connection: local
   vars:
     topics: Linux, Ansible, Devops,python
+    tags:
+    name: ansible
+    project: roboshop
+    component: catalog
+
   tasks:
     - name: greetings using filters
       ansible.builtin.debug:
@@ -12,3 +17,8 @@
     - name: convert topics to list
       ansible.builtin.debug:
         msg: "Topics are {{ topics  | split(',') }}"
+
+    - name: convert tags to list
+      ansible.builtin.debug:
+        msg: "Tags are {{ tags  | dict2items }}"
+      
