@@ -10,7 +10,7 @@
       ansible.builtin.package:
         name: "{{item.name}}"
         state: "{{item.state}}"
-      loop:                                   #loop is used to iterate over a list of items or list of map
+      loop:
          - { name: "nginx", state: "present" }  # name is key state is value or # map/dic
          - { name: "nodejs", state: "present" }
          - { name: "zip",    state: "present" }
