@@ -11,4 +11,4 @@
 
     - name: convert topics to list
       ansible.builtin.debug:
-        msg: "Topics are {{ topics.split(',') }}"
+        msg: "Topics are {{ topics  | split(',') }}"
