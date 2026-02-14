@@ -20,5 +20,5 @@
 
     - name: convert tags to list
       ansible.builtin.debug:
-        msg: "Tags are {{ tags  | dict2items }}"
+        msg: "{ tagslist  | dict2items }}"
       
