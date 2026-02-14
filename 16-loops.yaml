@@ -4,8 +4,8 @@
   tasks:
    - name: print the list of names
      ansible.builtin.debug:
-      msg: "{{item}}"
+      name: "{{item}}"
       loop:
        -John
-       -Peter
+        -Peter
        -Shivank   
