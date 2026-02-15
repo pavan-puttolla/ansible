@@ -41,5 +41,13 @@
     - name: convert list to map
       ansible.builtin.debug:
         msg: "{{  tagslist  | items2dict }}"
-        
+    
+    - name: read student yaml file
+      ansible.builtin.set_fact:    # set_fact is used to create variable in ansible
+        student_yaml: "{{ lookup ('file', 'student.yaml') | from_yaml }}"
+    
+    - name: convert studentfile from  yaml to json
+      ansible.builtin.debug:
+        msg: "{{ student_yaml | to_nice_json }}"
+
       
