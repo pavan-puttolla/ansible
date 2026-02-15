@@ -1,7 +1,22 @@
 - name: demo on filters
   hosts: local
   connection: local
+  vars:
+    topics: Linux, Ansible, Devops,python
+    tags:
+     name: ansible
+     project: roboshop
+     component: catalog
   tasks:
     - name: greetings 
       ansible.builtin.debug:
         msg: "Hello PavanKumar {{ WELCOME | default('how you doing') }}"
+    
+    - name: convert topics to list
+      ansible.builtin.debug:
+        msg: "Topics are {{ topics  | split(',') }}"
+
+    - name: convert tags to list
+      ansible.builtin.debug:
+        msg: "{{ tagslist  | dict2items }}"
+      
