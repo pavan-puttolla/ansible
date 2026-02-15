@@ -3,17 +3,16 @@
   connection: local
   vars:
     topics: Linux, Ansible, Devops,python
-    tags:
-    name: ansible
-    project: roboshop
-    component: catalog
+    tagslist:
+     name: ansible
+     project: roboshop
+     component: catalog
 
   tasks:
     - name: greetings using filters
       ansible.builtin.debug:
         msg: "Hello PavanKumar {{ WELCOME | default('how you doing') }}"
     
-
     - name: convert topics to list
       ansible.builtin.debug:
         msg: "Topics are {{ topics  | split(',') }}"
