@@ -44,7 +44,7 @@
     
     - name: read student yaml file
       ansible.builtin.set_fact:    # set_fact is used to create variable in ansible
-        student_yaml: "{{ lookup ('file', 'students.yaml') | from_yaml }}"
+        student_yaml: "{{ lookup('file', 'students.yaml') | from_yaml }}"
     
     - name: convert studentfile from  yaml to json
       ansible.builtin.debug:
