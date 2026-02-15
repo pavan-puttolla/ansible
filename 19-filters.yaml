@@ -3,10 +3,28 @@
   connection: local
   vars:
     topics: Linux, Ansible, Devops,python
-    tagslist:
+    tagsmaps:
      name: ansible
      project: roboshop
      component: catalogue
+    tagslist: [
+
+           {
+            "key": "name",
+            "value": "ansible"
+        },
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "component",
+            "value": "catalogue"
+        }
+    ]
+
+
+
   tasks:
     - name: greetings 
       ansible.builtin.debug:
@@ -18,5 +36,10 @@
 
     - name: convert maps to list
       ansible.builtin.debug:
-        msg: "{{ tagslist  | dict2items }}"
+        msg: "{{  tagsmaps  | dict2items }}"
+
+    - name: convert list to map
+      ansible.builtin.debug:
+        msg: "{{  tagslist  | items2dict }}"
+        
       
