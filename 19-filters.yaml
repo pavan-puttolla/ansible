@@ -6,7 +6,7 @@
     tags:
      name: ansible
      project: roboshop
-     component: catalog
+     component: catalogue
   tasks:
     - name: greetings 
       ansible.builtin.debug:
@@ -16,7 +16,7 @@
       ansible.builtin.debug:
         msg: "Topics are {{ topics  | split(',') }}"
 
-    - name: convert tags to list
+    - name: convert maps to list
       ansible.builtin.debug:
         msg: "{{ tagslist  | dict2items }}"
       
