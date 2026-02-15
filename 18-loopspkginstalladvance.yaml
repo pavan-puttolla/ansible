@@ -9,5 +9,5 @@
         state: "{{item.state}}"
       loop:                                                   #list of map
          - { name: "nginx", state: "present" }  # name is key state is value or # map/dic
-         - { name: "nodejs", state: "present" }
+         - { name: "nodejs", state: "present" }   
          - { name: "zip",    state: "absent" }
