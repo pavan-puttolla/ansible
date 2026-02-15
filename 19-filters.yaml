@@ -3,7 +3,7 @@
   connection: local
   vars:
     topics: Linux, Ansible, Devops,python
-    tagslist:
+    tags:
      name: ansible
      project: roboshop
      component: catalog
