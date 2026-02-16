@@ -4,6 +4,7 @@
   vars:
     topics: Linux, Ansible, Devops,python
     course: "Ansible for Beginners Course"
+    myiP: "98.91.206.65"
     tagsmaps:
      name: ansible
      project: roboshop
@@ -57,5 +58,12 @@
     - name: convert course file to 
       ansible.builtin.debug:
         msg: "{{ course | lower }}"
+
+    - name: checking the ipv4 is valid or not
+      ansible.builtin.debug:
+        msg: "Is the IP valid? {{ myiP | ansible.utils.ipv4 }}"
+        
+    
+
 
       
