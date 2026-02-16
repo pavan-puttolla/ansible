@@ -4,7 +4,7 @@
   vars:
     topics: Linux, Ansible, Devops,python
     course: "Ansible for Beginners Course"
-    # myIP: "98.91.206.65"
+    myIP: "98.91.206.65"
     tagsmaps:
      name: ansible
      project: roboshop
