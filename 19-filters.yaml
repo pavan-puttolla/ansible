@@ -4,7 +4,7 @@
   vars:
     topics: Linux, Ansible, Devops,python
     course: "Ansible for Beginners Course"
-    myiP: "98.91.206.65"
+    myIP: "98.91.206.65"
     tagsmaps:
      name: ansible
      project: roboshop
@@ -61,7 +61,7 @@
 
     - name: checking the ip is valid or not
       ansible.builtin.debug:
-        msg: "Is my ip valid? {{ myip | ansible.utils.ipv4 }}"
+        msg: "Is my ip valid? {{ myIP | ansible.utils.ipv4 }}"
 
     
 
