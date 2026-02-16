@@ -61,8 +61,8 @@
 
     - name: checking the ipv4 is valid or not
       ansible.builtin.debug:
-        msg: "Is the IP valid? {{ myiP | ansible.utils.ipv4 }}"
-        
+        msg: "Is my iP valid? {{ myiP | ansible.utils.ipv4 }}"
+
     
 
 
