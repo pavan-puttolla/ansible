@@ -3,6 +3,7 @@
   connection: local
   vars:
     topics: Linux, Ansible, Devops,python
+    course: "Ansible for Beginners Course"
     tagsmaps:
      name: ansible
      project: roboshop
@@ -49,5 +50,12 @@
     - name: convert studentfile from  yaml to json
       ansible.builtin.debug:
         msg: "{{ student_yaml | to_nice_json }}"
+
+    - name: convert course file to uppercase
+      ansible.builtin.debug:
+        msg: "{{ course | upper }}"
+    - name: convert course file to 
+      ansible.builtin.debug:
+        msg: "{{ course | lower }}"
 
       
