@@ -59,7 +59,7 @@
       ansible.builtin.debug:
         msg: "{{ course | lower }}"
 
-    - name: checking the ipv4 is valid or not
+    - name: checking the ipv4 
       ansible.builtin.debug:
         msg: "Is my iP valid? {{ myiP | ansible.utils.ipv4 }}"
 
